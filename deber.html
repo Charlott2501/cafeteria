@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="deber.css">
+        <title>Fromulario</title>
+    </head>
+    <body>
+        <section class="form-register">
+            <h4>Formulario Registro</h4>
+            <input class="controls" type="text" name="nombres" id="nombre" placeholder="Ingrese su Nombre">
+            <input class="controls" type="text" name="apellidos" id=apellidos" placeholder="Ingrese su Apellido">
+            
+            <h4>Seleccione su idioma</h4>
+            <p>
+            <input type="radio" name="idioma" value="idiomaingles">
+            <label for="idiomaingles">Inglés</label>
+            </p>
+            
+            <p>
+            <input type="radio" name="idioma" value="idiomaaleman">
+            <label for="idiomaingles">Alemán</label>
+            </p>
+
+            <p>
+            <input type="radio" name="idioma" value="idiomafrances">
+            <label for="idiomaingles">Fracés</label>
+            </p>
+            
+            <h4>Seleccione su Conector</h4>
+            <p>
+            <select name="conector" id="conector">
+                <option value="USB">USB</option>
+                <option value="Paralelo">Paralelo</option>
+                <option value="PS2">PS2</option>
+            </select>
+            </p>
+            
+            <h4>Selecciona tu Sexo</h4>
+            <p>
+                <select name="sexo" id="sexo">
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="checkbox" id="sexomujer" name="sexo" value="sexomujer">
+                <label for="sexomujer">Mujer</label>
+                <input type="checkbox" id="sexohombre" name="sexo" value="sexohombre">
+                <label for="sexohombre">Hombre</label>
+            </p>
+
+            <p>
+            <p>Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></p>
+            <input class="bottons" type="button" value="Registrar">
+            <p><a href="#">¿Ya tienes una Cuenta?</a></p>
+            </p>
+        </section>
+    </body>
+</html>
